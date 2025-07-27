@@ -55,7 +55,7 @@ vi ~/.ssh/config
 
 ```
 Host chatbot
-    HostName <your-ec2-ip>
+    HostName <your-ec2-IPv4 DNS>
     User ec2-user
     IdentityFile ~/Desktop/pem/chatbot-key.pem
 ```
